@@ -1,6 +1,6 @@
 SVG LOGO MAKER
 
-Description:The application enables users to enter inputs into a inquirer prompt in order to generate a logo "logo.svg" file which contains the users desired results as an SVG image which then allows the user to save it in a .svg file where they can view the image.
+Description:The application enables users to enter inputs into an inquirer prompt in order to generate a logo "logo.svg" file which contains the user's desired results as a SVG image which then allows the user to save it in a .svg file where they can view the image.
 
 Usage Instructions:
 1. Open the cloned repository in any source code editor e.g. Visual Studio Code. 
@@ -9,8 +9,7 @@ Usage Instructions:
 4. Through sequential order within the command line interface - the user will be presented with npm inquirer questions - the user will provide a response to each question and proceed. 
 5. Once completed a SVG file named "logo.svg" will be created. 
 6. At your discretion, you may rename the "logo.svg" file to the file name of your choice. 
-7. (Optional) Regarding future use, you may alter the prompted questions within the index.js to best suit your needs. 
-8. (Optional) The SVG Logo Maker serves as a foundation so you are not limited to altering the files (as you have my permission) to create the best possible "logo.svg" file.
+7. (Optional) Regarding future use, you may alter the prompted questions within the index.mjs to best suit your needs. 
 
 Installation Process:
 1. Clone the repository
@@ -28,4 +27,4 @@ Jest Testing "npm test":
 Generated "logo.svg" file:
 ![screenshot](IMG_6736.jpg)
 
-Video Link:
+Video Link:https://app.screencastify.com/v3/watch/yKoDmool572dYXfxFGUq
