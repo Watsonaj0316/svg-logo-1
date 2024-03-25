@@ -7,7 +7,7 @@ describe('Circle', () => {
     const shape = new Circle();
     
     // Set the color
-    const color = 'blue';
+    const color = 'green';
     shape.setColor(color);
     
     // Call the render method and test the output
@@ -35,7 +35,7 @@ describe('Triangle', () => {
     const shape = new Triangle();
 
     // Set the color
-    const color = 'green';
+    const color = 'blue';
     shape.setColor(color);
 
     // Call the render method and test the output

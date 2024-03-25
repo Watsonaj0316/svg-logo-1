@@ -22,7 +22,7 @@ Command line application:
 ![screenshot](IMG_6737.jpg)
 
 Jest Testing "npm test":
-![screenshot](IMG_6704.jpg)
+![screenshot](IMG_6787.jpg)
 
 Generated "logo.svg" file:
 ![screenshot](IMG_6736.jpg)
