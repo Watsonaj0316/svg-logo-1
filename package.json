@@ -17,6 +17,8 @@
   },
   "jest": {
     "testMatch": [
+      "**/__tests__/**/*.js",
+      "**/?(*.)+(spec|test).js",
       "**/__tests__/**/*.mjs",
       "**/?(*.)+(spec|mjs|test).mjs"
     ]

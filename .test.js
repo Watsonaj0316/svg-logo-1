@@ -1,18 +1,5 @@
 
-test('Circle', () => {
-    expect(true).toBe(true);
-});
-
-test('Square', () => {
-  expect(true).toBe(true);
-});
-
-test('Triangle', () => {
-  expect(true).toBe(true);
-});
-
-// test.mjs
-import { Circle, Square, Triangle } from './shapes.mjs';
+const { Circle, Square, Triangle } = require('./shapes.js');
 
 describe('Circle', () => {
   test('renders correctly', () => {
@@ -24,7 +11,7 @@ describe('Circle', () => {
     shape.setColor(color);
     
     // Call the render method and test the output
-    expect(shape.render()).toEqual(`<circle cx="50%" cy="50%" r="100" height="100%" width="100%" fill="${color}"/>`);
+    expect(shape.render()).toEqual(`<circle cx="50%" cy="50%" r="100" fill="${color}" />`);
   });
 });
 
@@ -38,7 +25,7 @@ describe('Square', () => {
     shape.setColor(color);
 
     // Call the render method and test the output
-    expect(shape.render()).toEqual(`<rect x="50" y="50" height="200" width="200" fill="${color}"/>`);
+    expect(shape.render()).toEqual(`<rect x="50" y="50" height="200" width="200" fill="${color}" />`);
   });
 });
 
@@ -52,6 +39,6 @@ describe('Triangle', () => {
     shape.setColor(color);
 
     // Call the render method and test the output
-    expect(shape.render()).toEqual(`<polygon height="100%" width="100%" points="0,200 300,200 150,0" fill="${color}"/>`);
+    expect(shape.render()).toEqual(`<polygon points="0,200 300,200 150,0" fill="${color}" />`);
   });
 });

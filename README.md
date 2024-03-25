@@ -27,4 +27,4 @@ Jest Testing "npm test":
 Generated "logo.svg" file:
 ![screenshot](IMG_6736.jpg)
 
-Video Link:https://app.screencastify.com/v3/watch/yKoDmool572dYXfxFGUq
+Video Link:https://drive.google.com/file/d/1XEWlCFZz0L6dVk9tDQ1dIESlTHSbOhd-/view?usp=sharing
